@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* Media query for tablet */
 @media (min-width: 576px) and (max-width: 1024px) {
   .container {
@@ -465,7 +465,7 @@
     margin-left: 20px;
   }
 }
-=======
+
 /* Media query for tablet */
 @media (min-width: 576px) and (max-width: 1024px) {
   .container {
@@ -932,4 +932,4 @@
     margin-left: 20px;
   }
 }
->>>>>>> cec532ea6ff76ca31b46060242d9e03393d94bc3
+
