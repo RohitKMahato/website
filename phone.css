@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* Media query for mobile */
 @media only screen and (max-width: 576px) {
   .container {
@@ -450,7 +449,7 @@
     font-size: 15px;
   }
 }
-=======
+
 /* Media query for mobile */
 @media only screen and (max-width: 576px) {
   .container {
@@ -902,4 +901,3 @@
     font-size: 15px;
   }
 }
->>>>>>> cec532ea6ff76ca31b46060242d9e03393d94bc3
