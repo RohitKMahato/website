@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -120,7 +119,7 @@ nav {
   /* flex-wrap: wrap; */
   flex-direction: column;
   height: 698px;
-  
+
   padding-right: 0px;
   background-image: url(./img/front.jpg);
   color: white;
@@ -128,7 +127,7 @@ nav {
   background-size: auto 100%;
 }
 
-.right-data{
+.right-data {
   display: none;
 }
 .right-content img {
@@ -204,7 +203,6 @@ select {
   margin-left: 19px;
   font-weight: 500;
 }
-
 
 .options .check h4 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -356,9 +354,10 @@ select {
   margin-left: 60px;
   font-size: 17px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
- 
 }
-#know{display: none;}
+#know {
+  display: none;
+}
 
 .pal {
   display: flex;
@@ -448,12 +447,12 @@ img {
   width: 100%;
   white-space: nowrap;
   background-color: #def5f7;
-  
+  padding-bottom: 70px;
 }
 .room {
   cursor: pointer;
   width: 448px;
-  height: 610px;
+  height: 600px;
   background-color: rgb(255, 255, 255);
   display: inline-block;
   margin-left: 13px;
@@ -465,23 +464,45 @@ img {
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
 }
 #room1 {
-  margin-left: 70px;
+  margin-left: 20px;
 }
 .room img {
   width: 100%;
   height: 413px;
-  /* height: auto; */
-  /* width: 445px; */
-
+  position: relative;
   object-fit: cover;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
 }
+
+.goa {
+  position: absolute;
+  padding: 12px;
+  height: 33px;
+  font-weight: 500;
+  font-size: 13px;
+  background: #b9e1e5;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  line-height: 0.9;
+  z-index: 9;
+}
+.goa-position {
+  position: absolute;
+  top: 10px;
+  right: 55px;
+  font-weight: 800;
+}
+
 .room-details {
   padding: 20px;
   background-color: white;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 0;
 }
 
 .room-details h2 {
@@ -495,29 +516,34 @@ img {
   margin-top: 6px;
   font-size: 16px;
   opacity: 0.5;
+  margin-bottom: 8px;
 }
 .room-info {
   display: flex;
   font-weight: 900;
-  opacity: 0.6;
-  font-size: 0.875rem;
-  margin: 8px 0;
+  opacity: 0.5;
+  font-size: 0.92vw;
+  margin: 0 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  padding: 0 0;
-  border-top: 1px solid #d0d0d0;
-  border-bottom: 1px solid #d0d0d0;
+  padding: 0px 0;
+  border-top: 2px solid #d0d0d0;
+  border-bottom: 2px solid #d0d0d0;
 }
 .room-info p {
-  margin: 10px;
+  margin: 5px;
+  margin-left: 0;
 }
 .room-info i {
   transform: rotate(90deg);
+  opacity: 0.6;
 }
 .room-details h3 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 15px;
   font-weight: 400;
   opacity: 0.5;
+  margin-top: 7px;
+
 }
 
 .room-details h1 {
