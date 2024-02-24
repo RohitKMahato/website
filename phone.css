@@ -1,0 +1,905 @@
+<<<<<<< HEAD
+/* Media query for mobile */
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 95%;
+    margin: 2vh;
+    padding-right: 12px;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .container nav i {
+    display: block;
+  }
+
+  .navbar {
+    height: 8vh;
+    padding: 4px;
+  }
+
+  .logo-img img {
+    height: 2.5vh;
+    width: 100%;
+  }
+
+  .btn-nav {
+    font-size: 12px;
+  }
+
+  /* landing page */
+  .hero-content {
+    flex-direction: column-reverse;
+  }
+
+  .right-content img {
+    height: 100%;
+  }
+  .right-data {
+    display: block;
+  }
+
+  .left-content .options {
+    display: none;
+  }
+
+  .left-content .options select.gest,
+  .left-content .options select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .left-content .options button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .options {
+    margin-top: 43vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  select {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .options .check {
+    display: flex;
+    width: 300px;
+    margin-left: 0;
+    align-items: center;
+  }
+  .options input,
+  .options select {
+    width: 150px;
+  }
+  .options .check p {
+    margin-right: 0;
+  }
+
+  .gest {
+    margin-left: 0;
+  }
+
+  .options button {
+    font-size: 19px;
+    padding: 8px;
+
+    margin-left: 0;
+    margin-top: 0;
+    width: 80%;
+    height: 46px;
+  }
+
+  /* 2nd page  */
+  .left-content .statement h1 {
+    font-size: 8vh;
+  }
+
+  .right-content {
+    width: 100%;
+    height: 550px;
+  }
+  .left-content {
+    width: 100%;
+    height: 550px;
+  }
+  .right-box {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .container-det .left-box h2 {
+    font-size: 5.2vh;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 35px;
+  }
+
+  .left-content .para {
+    font-size: 18px;
+  }
+
+  .right-box h4 {
+    font-size: 21.5px;
+    margin-right: 0;
+    margin-top: 0;
+    font-weight: 100;
+    line-height: 1.4;
+    margin-left: 5px;
+  }
+
+  .pal {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .fits h3 {
+    font-size: 3.6vh;
+    font-weight: 500;
+  }
+  #third {
+    margin-right: 10px;
+  }
+  .text {
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    margin-top: 0px;
+    margin-left: 0px;
+    display: none;
+  }
+  #know {
+    display: block;
+    height: 8vh;
+    margin-top: 30px;
+    margin-bottom: 42px;
+  }
+
+  .fits {
+    margin-top: 40px;
+    padding: 10px;
+  }
+
+  .intro {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .intro h2 {
+    font-size: 22px;
+    padding-top: 40px;
+    line-height: 1.4;
+  }
+
+  .intro .view {
+    padding: 8px;
+    width: 75%;
+  }
+
+  .sign {
+    display: none;
+  }
+
+  #room1 {
+    margin-left: 0;
+  }
+
+  #pole {
+    margin-left: 5px;
+  }
+
+  .detail h1 {
+    margin-top: 40px;
+  }
+
+  .detail h2 {
+    margin-top: 15px;
+  }
+
+  .navbar ul li {
+    font-size: 14px;
+  }
+
+  .btn-nav {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+
+  .hero-sec {
+    height: auto;
+  }
+
+  .left-content .para,
+  .right-content .para {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: auto;
+  }
+
+  .box {
+    width: 100%;
+    height: 100%;
+  }
+
+  .box-img {
+    height: 300px;
+    width: 100%;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .box-content h2 {
+    font-size: 20px;
+  }
+
+  .box-content h3 {
+    font-size: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .box-content p {
+    font-size: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 500;
+    opacity: 0.7;
+  }
+  .price {
+    border-bottom: 1px solid rgb(201, 195, 195);
+    padding-bottom: 7px;
+  }
+
+  .container-det {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left-box,
+  .right-box {
+    width: 100%;
+    width: 100%;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .gest {
+    margin-left: 20px;
+  }
+
+  .shop-slide {
+    padding: 20px;
+    height: auto;
+    padding-top: 0;
+  }
+
+  .room {
+    width: 90%;
+    height: 450px;
+    margin: 0;
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+  .room-info {
+    font-size: 2vh;
+    border-top: 2px solid #d0d0d0;
+    border-bottom: 2px solid #d0d0d0;
+  }
+  .room-info p {
+    margin: 2px;
+    padding: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 2.2vh;
+    opacity: 0.8;
+  }
+
+  .room-details {
+    padding: 15px;
+  }
+
+  .room img {
+    width: 100%;
+    height: auto;
+  }
+
+  .room-details h2 {
+    font-size: 18px;
+  }
+
+  .room-details h5 {
+    font-size: 16px;
+  }
+
+  .room-details h3 {
+    font-size: 3vh;
+  }
+
+  .room-details h1 {
+    font-size: 3vh;
+  }
+
+  .services,
+  .detail {
+    padding: 20px;
+    height: auto;
+  }
+
+  .heading-services h1 {
+    font-size: 20px;
+  }
+
+  .boxes-services {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .boxes {
+    width: 90%;
+    margin-bottom: 0;
+    padding-left: 0;
+    border-top: 2px solid rgb(189, 189, 189) e;
+    border-bottom: none;
+    padding: 5px;
+  }
+
+  .boxes h3 {
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .boxes p {
+    font-size: 17.6px;
+    line-height: 1.3;
+  }
+
+  .detail h1 {
+    font-size: 20px;
+  }
+
+  .detail p {
+    margin-left: 0px;
+    margin-right: 0;
+    font-size: 17px;
+    margin-top: 20px;
+    line-height: 1.35;
+  }
+
+  .detail h2 {
+    font-size: 16px;
+  }
+
+  .footer-back {
+    height: auto;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+  }
+
+  .left-footer {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .left-footer h2 {
+    margin-left: 5px;
+    font-size: 3.8vh;
+    margin-top: 0;
+  }
+
+  .left-footer p {
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 1.2;
+  }
+  #call {
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+  .contact-info h3 {
+    margin-left: 5px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+  #insta,
+  #fb {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .right-footer {
+    display: none;
+  }
+
+  .heading-services {
+    margin-left: 0;
+    text-align: left;
+    padding: 0;
+    margin-top: 15px;
+  }
+  .boxf h4 {
+    font-size: 15px;
+  }
+}
+=======
+/* Media query for mobile */
+@media only screen and (max-width: 576px) {
+  .container {
+    width: 95%;
+    margin: 2vh;
+    padding-right: 12px;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .container nav i {
+    display: block;
+  }
+
+  .navbar {
+    height: 8vh;
+    padding: 4px;
+  }
+
+  .logo-img img {
+    height: 2.5vh;
+    width: 100%;
+  }
+
+  .btn-nav {
+    font-size: 12px;
+  }
+
+  /* landing page */
+  .hero-content {
+    flex-direction: column-reverse;
+  }
+
+  .right-content img {
+    height: 100%;
+  }
+  .right-data {
+    display: block;
+  }
+
+  .left-content .options {
+    display: none;
+  }
+
+  .left-content .options select.gest,
+  .left-content .options select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .left-content .options button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .options {
+    margin-top: 43vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  select {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .options .check {
+    display: flex;
+    width: 300px;
+    margin-left: 0;
+    align-items: center;
+  }
+  .options input,
+  .options select {
+    width: 150px;
+  }
+  .options .check p {
+    margin-right: 0;
+  }
+
+  .gest {
+    margin-left: 0;
+  }
+
+  .options button {
+    font-size: 19px;
+    padding: 8px;
+
+    margin-left: 0;
+    margin-top: 0;
+    width: 80%;
+    height: 46px;
+  }
+
+  /* 2nd page  */
+  .left-content .statement h1 {
+    font-size: 8vh;
+  }
+
+  .right-content {
+    width: 100%;
+    height: 550px;
+  }
+  .left-content {
+    width: 100%;
+    height: 550px;
+  }
+  .right-box {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .container-det .left-box h2 {
+    font-size: 5.2vh;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 35px;
+  }
+
+  .left-content .para {
+    font-size: 18px;
+  }
+
+  .right-box h4 {
+    font-size: 21.5px;
+    margin-right: 0;
+    margin-top: 0;
+    font-weight: 100;
+    line-height: 1.4;
+    margin-left: 5px;
+  }
+
+  .pal {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .fits h3 {
+    font-size: 3.6vh;
+    font-weight: 500;
+  }
+  #third {
+    margin-right: 10px;
+  }
+  .text {
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    margin-top: 0px;
+    margin-left: 0px;
+    display: none;
+  }
+  #know {
+    display: block;
+    height: 8vh;
+    margin-top: 30px;
+    margin-bottom: 42px;
+  }
+
+  .fits {
+    margin-top: 40px;
+    padding: 10px;
+  }
+
+  .intro {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .intro h2 {
+    font-size: 22px;
+    padding-top: 40px;
+    line-height: 1.4;
+  }
+
+  .intro .view {
+    padding: 8px;
+    width: 75%;
+  }
+
+  .sign {
+    display: none;
+  }
+
+  #room1 {
+    margin-left: 0;
+  }
+
+  #pole {
+    margin-left: 5px;
+  }
+
+  .detail h1 {
+    margin-top: 40px;
+  }
+
+  .detail h2 {
+    margin-top: 15px;
+  }
+
+  .navbar ul li {
+    font-size: 14px;
+  }
+
+  .btn-nav {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+
+  .hero-sec {
+    height: auto;
+  }
+
+  .left-content .para,
+  .right-content .para {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: auto;
+  }
+
+  .box {
+    width: 100%;
+    height: 100%;
+  }
+
+  .box-img {
+    height: 300px;
+    width: 100%;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .box-content h2 {
+    font-size: 20px;
+  }
+
+  .box-content h3 {
+    font-size: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .box-content p {
+    font-size: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: 500;
+    opacity: 0.7;
+  }
+  .price {
+    border-bottom: 1px solid rgb(201, 195, 195);
+    padding-bottom: 7px;
+  }
+
+  .container-det {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left-box,
+  .right-box {
+    width: 100%;
+    width: 100%;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .gest {
+    margin-left: 20px;
+  }
+
+  .shop-slide {
+    padding: 20px;
+    height: auto;
+    padding-top: 0;
+  }
+
+  .room {
+    width: 90%;
+    height: 450px;
+    margin: 0;
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+  .room-info {
+    font-size: 2vh;
+    border-top: 2px solid #d0d0d0;
+    border-bottom: 2px solid #d0d0d0;
+  }
+  .room-info p {
+    margin: 2px;
+    padding: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 2.2vh;
+    opacity: 0.8;
+  }
+
+  .room-details {
+    padding: 15px;
+  }
+
+  .room img {
+    width: 100%;
+    height: auto;
+  }
+
+  .room-details h2 {
+    font-size: 18px;
+  }
+
+  .room-details h5 {
+    font-size: 16px;
+  }
+
+  .room-details h3 {
+    font-size: 3vh;
+  }
+
+  .room-details h1 {
+    font-size: 3vh;
+  }
+
+  .services,
+  .detail {
+    padding: 20px;
+    height: auto;
+  }
+
+  .heading-services h1 {
+    font-size: 20px;
+  }
+
+  .boxes-services {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .boxes {
+    width: 90%;
+    margin-bottom: 0;
+    padding-left: 0;
+    border-top: 2px solid rgb(189, 189, 189) e;
+    border-bottom: none;
+    padding: 5px;
+  }
+
+  .boxes h3 {
+    font-size: 17px;
+    font-weight: 500;
+  }
+
+  .boxes p {
+    font-size: 17.6px;
+    line-height: 1.3;
+  }
+
+  .detail h1 {
+    font-size: 20px;
+  }
+
+  .detail p {
+    margin-left: 0px;
+    margin-right: 0;
+    font-size: 17px;
+    margin-top: 20px;
+    line-height: 1.35;
+  }
+
+  .detail h2 {
+    font-size: 16px;
+  }
+
+  .footer-back {
+    height: auto;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+  }
+
+  .left-footer {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .left-footer h2 {
+    margin-left: 5px;
+    font-size: 3.8vh;
+    margin-top: 0;
+  }
+
+  .left-footer p {
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 1.2;
+  }
+  #call {
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+  .contact-info h3 {
+    margin-left: 5px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+  #insta,
+  #fb {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .right-footer {
+    display: none;
+  }
+
+  .heading-services {
+    margin-left: 0;
+    text-align: left;
+    padding: 0;
+    margin-top: 15px;
+  }
+  .boxf h4 {
+    font-size: 15px;
+  }
+}
+>>>>>>> cec532ea6ff76ca31b46060242d9e03393d94bc3
