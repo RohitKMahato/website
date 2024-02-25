@@ -698,6 +698,9 @@ img {
   padding-top: 5px;
   opacity: 0.6;
 }
+.contact-info .cont:hover {
+  opacity: 1; 
+}
 .footer-links {
   height: 50px;
   width: 80%;
@@ -720,6 +723,9 @@ img {
     font-family: Ubuntu, sans-serif;
     font-weight: 500;
 }
+.boxf h4:hover {
+  text-decoration: underline; 
+}
 .boxf i {
   transform: rotate(90deg);
   margin-left: 10px;
@@ -735,7 +741,10 @@ img {
   border-radius: 40%;
   opacity: 0.2;
 }
+#insta:hover {
 
+  opacity: 0.8;
+}
 #fb {
   transform: rotate(0deg);
 
@@ -745,6 +754,10 @@ img {
   padding: 4px;
   border-radius: 40%;
   opacity: 0.2;
+}
+#fb:hover {
+
+  opacity: 0.8;
 }
 /* .media-icon{
     
@@ -781,4 +794,18 @@ img {
   font-size: 10.3px;
   border: none;
   opacity: 0.65;
+}
+.up-face{
+  transform: rotate(90deg);
+  float: left;
+  text-transform: uppercase;
+  margin-top: 90px;
+  padding-top: 57px;
+  font-size: 1.7vh;
+  font-family: Ubuntu, sans-serif;
+  opacity: 0.5;
+  
+}
+.up-face i{
+  font-size: 2vh;
 }

@@ -464,4 +464,8 @@
   .contact-info h3 {
     margin-left: 20px;
   }
+  .up-face{
+   display: none;
+    
+  }
 }

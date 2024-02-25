@@ -449,4 +449,7 @@
   .boxf h4 {
     font-size: 15px;
   }
+  .up-face{
+   display: none;
+  }
 }
