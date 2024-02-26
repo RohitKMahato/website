@@ -74,10 +74,14 @@
     margin-left: 0;
     align-items: center;
   }
-  .options input,
+  
   .options select {
     width: 150px;
+    font-size: 1.7vh;
+    padding-left: 16px;
+    
   }
+ 
   .options .check p {
     margin-right: 0;
   }
@@ -96,6 +100,14 @@
     height: 46px;
   }
 
+  .dropdown  {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-82%);
+    color: rgb(0, 0, 0);
+}
   /* 2nd page  */
   .left-content .statement h1 {
     font-size: 8vh;
