@@ -173,10 +173,11 @@ nav {
 }
 
 select {
-  border: 2px solid yellow;
+  border: 2px solid white;
   border-radius: 250px;
   height: 50px;
   width: 150px;
+  background-color: white;
 }
 .options .check {
   display: flex;

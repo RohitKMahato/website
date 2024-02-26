@@ -280,8 +280,11 @@
   }
 
   .gest {
-    margin-left: 20px;
+    margin-top: 17px;
+    margin-left: 0px;
+    background-color: white;
   }
+
 
   .shop-slide {
     padding: 20px;
@@ -312,6 +315,7 @@
 
   .room-details {
     padding: 15px;
+    padding-bottom: 0;
   }
 
   .room img {
