@@ -217,7 +217,7 @@ select {
 }
 
 
-.icon-container .gest {
+/* .icon-container .gest {
   font-family: Ubuntu, sans-serif;
   width: 160px;
   padding: 7px;
@@ -265,6 +265,75 @@ select {
   font-size: 17px;
   font-weight: 500;
 }
+.options button:hover {
+  background-color: #afecfc;
+} */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: max-content;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 150px;
+}
+
+.gest {
+  flex: initial;
+    padding: 30px;
+    border: 2px solid #fff;
+    border-radius: 250px;
+    cursor: pointer;
+    font-family: Ubuntu, sans-serif;
+    font-size: 16.5px;
+    appearance: none;
+    /* width: 102%; */
+    width: 160px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.gest {
+  margin-right: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown .fa-chevron-down {
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  color: black;
+}
+
+.options button {
+  padding: 13px;
+  background-color: #8de8ff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  border-radius: 250px;
+  font-size: 17px;
+  font-weight: 500;
+  flex: 1;
+  width: 51%;
+  /* margin-right: 206px; */
+  margin-left: 79px;
+
+}
+
 .options button:hover {
   background-color: #afecfc;
 }
