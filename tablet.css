@@ -1,4 +1,3 @@
-
 /* Media query for tablet */
 @media (min-width: 576px) and (max-width: 1024px) {
   .container {
@@ -75,10 +74,15 @@
     margin-right: 20px;
   }
 
-  .gest {
-    margin-left: 20px;
+ .gest {
+    font-size: 16px;
+    padding-left: 30px;
   }
-  .left-box,
+  #location {
+    font-size: 16px;
+    padding-left: 30px;
+  }
+  
   .right-box {
     padding: 10px;
   }
@@ -147,9 +151,6 @@
     margin-top: 50px;
   }
 
-  
-
- 
   .container {
     width: 95%;
   }
@@ -234,14 +235,11 @@
     margin-right: 40px;
   }
 
-  .gest {
-    margin-left: 40px;
-  }
-
-  .options input,
   .options select {
-    width: 43vw;
+    width: 45vw;
     margin-left: 0px;
+    margin-top: 13px;
+    margin-bottom: 4px;
   }
 
   /* Adjustments for the shop-slide section */
@@ -322,12 +320,12 @@
     margin-left: 50px;
     margin-right: 50px;
     font-size: 18px;
-}
+  }
 
   .detail h2 {
     font-size: 20px;
     margin-bottom: 50px;
-}
+  }
 
   /* Adjustments for footer */
   .footer-back {
@@ -363,19 +361,19 @@
     margin-left: 40px;
   }
 
-  #insta{
+  #insta {
     font-size: 2.2vh;
     margin-left: 300px;
     opacity: 0.5;
     border: none;
-}
-  
+  }
+
   #fb {
     font-size: 2.2vh;
     margin-left: 10px;
     opacity: 0.5;
     border: none;
-}
+  }
 
   .right-footer img {
     display: none;
@@ -416,10 +414,6 @@
     margin-right: 20px;
   }
 
-  .gest {
-    margin-left: 20px;
-  }
-
   .room-details h5 {
     font-size: 14px;
   }
@@ -437,20 +431,9 @@
     align-items: center;
   }
 
-  
-
- 
-
   .detail h1 {
     font-size: 24px;
   }
-
-
-
-
-
-
-
 
   .left-footer h2 {
     margin-left: 20px;
@@ -464,8 +447,7 @@
   .contact-info h3 {
     margin-left: 20px;
   }
-  .up-face{
-   display: none;
-    
+  .up-face {
+    display: none;
   }
 }

@@ -217,9 +217,9 @@ select {
 }
 
 
-/* .icon-container .gest {
+.icon-container .gest {
   font-family: Ubuntu, sans-serif;
-  width: 160px;
+  width: 10.21vw;
   padding: 7px;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 250px;
@@ -267,9 +267,9 @@ select {
 }
 .options button:hover {
   background-color: #afecfc;
-} */
+}
 
-.grid-container {
+/* .grid-container {
   display: grid;
   grid-template-columns: max-content;
   gap: 10px;
@@ -295,7 +295,7 @@ select {
     font-family: Ubuntu, sans-serif;
     font-size: 16.5px;
     appearance: none;
-    /* width: 102%; */
+   
     width: 160px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -329,14 +329,14 @@ select {
   font-weight: 500;
   flex: 1;
   width: 51%;
-  /* margin-right: 206px; */
+  margin-right: 206px;
   margin-left: 79px;
 
 }
 
 .options button:hover {
   background-color: #afecfc;
-}
+} */
 
 /* next page */
 
