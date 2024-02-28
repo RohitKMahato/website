@@ -170,6 +170,7 @@ nav {
   /* align-items: center; */
   justify-content: center;
   margin-top: 40px;
+  padding: 0px 12%;
 }
 
 select {
@@ -183,9 +184,7 @@ select {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 80px;
   background-color: white;
-  width: 50%;
   border-radius: 250px;
   padding: 13px;
   p {
@@ -200,10 +199,18 @@ select {
   margin: 0;
   margin-right: 40px;
 }
+
+
+
+
 .left {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-left: 19px;
+  /*margin-left: 19px;*/
   font-weight: 500;
+}
+
+.box-input {
+  position: relative;
 }
 
 .options .check h4 {
@@ -216,33 +223,54 @@ select {
   font-weight: 500;
 }
 
+.icon-container {
+  display: grid;
+  gap: 7px;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 10px;
+}
+
+.checka {
+  gap: 0px;
+  grid-template-columns: 1fr 0.2fr 1fr;
+}
+
+.separator {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: black;
+}
+
 
 .icon-container .gest {
+  width: 100%;
+  text-align: center;
   font-family: Ubuntu, sans-serif;
-  width: 10.21vw;
-  padding: 7px;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 250px;
   cursor: pointer;
-  margin-top: 10px;
-  padding-left: 23px;
+  padding: 13px;
   font-size: 16.5px;
+  position: relative;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
 
-.icon-container .gest {
-  margin-left: 80px;
-}
+/*.icon-container .gest {*/
+/*  margin-left: 80px;*/
+/*}*/
 
 #location{
   margin-left: 0;
 }
 .dropdown {
-  position: relative;
-  display: inline-block;
-  margin-top: 1px;
+  top: 50%;
+  right: 0;
+  transform: translateY(5px);
+  position: absolute;
 }
 .dropdown .fa-chevron-down {
   position: absolute;
@@ -258,8 +286,6 @@ select {
   color: #000000;
   border: none;
   cursor: pointer;
-  width: 50%;
-  margin-left: 80px;
   margin-top: 10px;
   border-radius: 250px;
   font-size: 17px;
@@ -267,6 +293,25 @@ select {
 }
 .options button:hover {
   background-color: #afecfc;
+}
+
+.checkb, .checkc {
+  color: black;
+  background: white;
+}
+
+.checkb {
+  border-bottom-left-radius: 250px !important;
+  border-top-left-radius: 250px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.checkc {
+  border-bottom-left-radius: 0px !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 250px !important;
+  border-bottom-right-radius: 250px !important;
 }
 
 /* .grid-container {
