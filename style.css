@@ -586,6 +586,7 @@ img {
   white-space: nowrap;
   background-color: #def5f7;
   padding-bottom: 70px;
+  overflow: hidden;
 }
 .room {
   cursor: pointer;
