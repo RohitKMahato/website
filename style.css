@@ -11,7 +11,7 @@ header {
   top: 0;
   background-color: #f8f9fa;
   padding: 10px 0;
-  z-index: 1000; /* Ensures the header stays on top of other content */
+  z-index: 1000; 
 }
 .container {
   width: 90%;
@@ -40,9 +40,9 @@ header {
 .navbar ul li {
   cursor: pointer;
   display: inline;
-  margin: 0 3px;
   font-size: 17px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-left: 11px;
 }
 
 .shade {
@@ -90,8 +90,6 @@ nav {
 
 .hero-content {
   display: flex;
-  /* justify-content: space-between;
-    align-items: center; */
 }
 
 .left-content img {
@@ -102,7 +100,6 @@ nav {
 .left-content {
   background-image: url(./img/hero-art.svg);
   display: flex;
-  /* flex-wrap: wrap; */
   flex-direction: column;
   height: 698px;
   width: 45%;
@@ -116,10 +113,8 @@ nav {
 .right-content {
   width: 60%;
   display: flex;
-  /* flex-wrap: wrap; */
   flex-direction: column;
   height: 698px;
-
   padding-right: 0px;
   background-image: url(./img/front.jpg);
   color: white;
@@ -136,42 +131,35 @@ nav {
   object-fit: cover;
 }
 .left-content .statement {
-  height: 250px;
-  width: 259px;
-  /* background-color: blue; */
-  margin-left: 80px;
-  margin-top: 40px;
-  margin-bottom: -34px; /*maybe somthing wrong in this */
+  height: 219px;
+  width: 48%;
 }
 
 .left-content .statement h1 {
   font-family: "Source Serif Pro", serif;
-  font-size: calc(1.5rem + 2.7vw);
+  font-size: calc(1.5rem + 2.4vw);
   font-weight: 550;
-
   line-height: 1;
-  /* margin-bottom: 15px; */
+  padding-top: 40px;
+  padding-left: 78px;
 }
 
 .left-content .para {
   font-family: Ubuntu, sans-serif;
-  /* background-color: red; */
-  margin-left: 80px;
-  margin-right: 240px;
-  margin-top: 0px;
-  font-size: 16.5px;
+  padding-left: 80px; 
+  padding-right: 240px; 
+  padding-top: 20px; 
+  font-size: 17px;
   line-height: 1.3;
 }
 
 .options {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
-  margin-top: 40px;
-  /* padding: 0px 20%; */
+  padding-top: 40px;
   padding-left: 12%;
-  padding-right: 35%;
+  padding-right: 36%;
 }
 
 select {
@@ -201,12 +189,8 @@ select {
   margin-right: 40px;
 }
 
-
-
-
 .left {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  /*margin-left: 19px;*/
   font-weight: 500;
 }
 
@@ -244,7 +228,6 @@ select {
   color: black;
 }
 
-
 .icon-container .gest {
   width: 100%;
   text-align: center;
@@ -256,16 +239,15 @@ select {
   font-size: 16.5px;
   position: relative;
   appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  padding-left: 0;
+  padding-right: 40px;
 }
 
-.separator p{
- 
+.separator p {
   font-size: 30px;
 }
 
-#location{
+#location {
   margin-left: 0;
 }
 .dropdown {
@@ -277,7 +259,7 @@ select {
 .dropdown .fa-chevron-down {
   position: absolute;
   top: 50%;
-  right: 25px; 
+  right: 25px;
   transform: translateY(-82%);
   color: black;
 }
@@ -297,7 +279,8 @@ select {
   background-color: #afecfc;
 }
 
-.checkb, .checkc {
+.checkb,
+.checkc {
   color: black;
   background: white;
 }
@@ -390,32 +373,25 @@ select {
 .shop-section {
   display: flex;
   flex-direction: row;
-
   justify-content: space-evenly;
   background-color: #ffffff;
-  height: 900px;
+  height: 800px;
   padding: 70px;
+  padding-bottom: 0;
 }
 .box {
   height: 650px;
   width: 100%;
-
-  margin: 8px;
-  margin-top: 1rem;
+  padding: 8px;
 }
 .box-img {
   height: 420px;
   width: 100%;
   margin-top: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border-radius: 15px;
   cursor: pointer;
 }
-
-/* .box-content{
-    margin-left: 1rem;
-    margin-right: 1rem;
-} */
 
 .box-content h2 {
   font-size: 29px;
@@ -430,12 +406,11 @@ select {
 }
 .box-content p {
   font-family: Ubuntu, sans-serif;
-  margin-top: 15px;
-  margin-right: 30px;
   color: black;
   font-size: 17px;
   line-height: 1.3;
   cursor: pointer;
+  padding-top: 15px;
 }
 
 /* 3rd page */
@@ -458,10 +433,10 @@ select {
 .container-det .left-box h2 {
   font-size: 55px;
   font-weight: 400;
-  margin-top: 70px;
-  margin-left: 60px;
-  margin-right: 80px;
   line-height: 1;
+  padding-top: 70px;
+  padding-left: 60px;
+  padding-right: 80px;
 }
 
 .right-box {
@@ -472,13 +447,12 @@ select {
   font-family: Ubuntu, sans-serif;
   font-size: 20.5px;
   font-weight: 500;
-  margin-top: 70px;
-  margin-right: 180px;
+  padding-top: 70px;
+  padding-right: 180px;
   line-height: 1.3;
-  padding-right: 11px;
 }
 .text {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .btn {
@@ -501,32 +475,31 @@ select {
 .pal {
   display: flex;
   width: 100%;
-  /* align-items: center; */
-
-  margin-right: 100px;
+  
 }
 .fits {
-  margin-top: 70px;
   padding: 25px;
-
   float: left;
   width: 100%;
+  padding-top: 70px;
 }
-
+.first{
+  padding-left: 0;
+}
 .fits h3 {
   font-family: Ubuntu, sans-serif;
   font-size: 19px;
-  margin-top: 20px;
+  padding-top: 20px;
   font-weight: 550;
 }
 .fits p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 18px;
-  margin-top: 16px;
+  padding-top: 16px;
   opacity: 0.5;
 }
 #third {
-  margin-right: 80px;
+  padding-right: 80px;
 }
 
 .fits img {
@@ -546,8 +519,8 @@ select {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  margin-left: 320px;
-  margin-right: 320px;
+  padding-left: 320px;
+  padding-right: 320px;
   text-align: center;
 }
 
@@ -572,12 +545,11 @@ select {
 }
 .sign {
   height: 35px;
-  margin-right: 70px;
+  padding-right: 70px;
 }
 .sign i {
   font-size: 37px;
-  /* position: absolute;  */
-  margin-left: 16px;
+  padding-left: 16px;
   float: right;
 }
 
@@ -587,8 +559,9 @@ select {
   width: 100%;
   white-space: nowrap;
   background-color: #def5f7;
-  padding-bottom: 70px;
+  padding-bottom: 100px;
   overflow: hidden;
+  padding-top: 40px;
 }
 .room {
   cursor: pointer;
@@ -597,19 +570,11 @@ select {
   background-color: rgb(255, 255, 255);
   display: inline-block;
   margin-left: 13px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  /* border: 2px solid rgb(174, 122, 223); */
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
+  border-radius: 15px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   position: relative;
 }
-#room1 {
-  margin-left: 80px;
-}
+
 .room img {
   width: 100%;
   height: 400px;
@@ -647,32 +612,30 @@ select {
 }
 
 .room-details h2 {
-  /* margin-top: 6px;
-    font-size: 10px; */
   font-family: Ubuntu, sans-serif;
   font-size: 20px;
 }
 .room-details h5 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-top: 6px;
+  padding-top: 6px;
   font-size: 16px;
   opacity: 0.5;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 .room-info {
   display: flex;
   font-weight: 900;
   opacity: 0.5;
   font-size: 0.92vw;
-  margin: 0 0;
+  margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 0px 0;
   border-top: 2px solid #d0d0d0;
   border-bottom: 2px solid #d0d0d0;
 }
 .room-info p {
-  margin: 5px;
-  margin-left: 0;
+  padding: 5px;
+  padding-left: 0;
 }
 .room-info i {
   transform: rotate(90deg);
@@ -684,7 +647,7 @@ select {
   font-size: 15px;
   font-weight: 400;
   opacity: 0.5;
-  margin-top: 7px;
+  padding-top: 7px;
 }
 
 .room-details h1 {
@@ -701,12 +664,11 @@ select {
   height: 390px;
 }
 .heading-services {
-  margin-left: 45px;
   text-align: left;
   padding: 20px;
+  padding-left: 50px;
 }
 .heading-services h1 {
-  /* font-weight: 500; */
   font-size: 31px;
   opacity: 0.95;
 }
@@ -725,16 +687,14 @@ select {
 }
 .boxes h3 {
   font-family: Ubuntu, sans-serif;
-  margin-top: 20px;
+  padding-top: 20px;
   font-size: 20px;
-  /* font-weight: 500; */
 }
 .boxes p {
   font-size: 17px;
   font-family: Ubuntu, sans-serif;
-  margin-top: 20px;
-  /* opacity: 0.8; */
-  margin-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 .detail {
   text-align: center;
@@ -743,14 +703,14 @@ select {
   height: 450px;
 }
 .detail h1 {
-  margin-top: 60px;
+  padding-top: 60px;
   font-size: 32px;
 }
 .detail p {
   font-family: Ubuntu, sans-serif;
-  margin-top: 40px;
-  margin-left: 350px;
-  margin-right: 350px;
+  padding-top: 40px;
+  padding-left: 350px;
+  padding-right: 350px;
   font-size: 17px;
   line-height: 1.3;
 }
@@ -758,10 +718,10 @@ select {
   transform: rotate(90deg);
 }
 #pole {
-  margin-left: 7px;
+  padding-left: 7px;
 }
 .detail h2 {
-  margin-top: 30px;
+  padding-top: 30px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -788,7 +748,6 @@ select {
 }
 
 .left-footer {
- 
   padding: 20px;
 }
 
@@ -800,14 +759,11 @@ select {
 }
 
 .left-footer h2 {
-  margin-top: 40px;
-  /* margin-left: 95px; */
+  padding-top: 40px;
   font-size: 30px;
 }
 .left-footer p {
-
-  /* margin-left: 95px; */
-  margin-top: 20px;
+  padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid rgb(151, 151, 151);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -815,12 +771,8 @@ select {
   opacity: 0.4;
   line-height: 1.4;
 }
-/* .contact-info {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-} */
 .contact-info h3 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  /* margin-left: 95px; */
   margin-top: 0px;
   font-size: 18px;
   font-weight: 500;
@@ -830,7 +782,6 @@ select {
 }
 .contact-info .cont {
   border: none;
-  /* margin-top: 0; */
   font-size: 17px;
   padding-top: 5px;
   opacity: 0.6;
@@ -841,9 +792,9 @@ select {
   width: 80%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  margin-left: 18%;
   margin-bottom: 20px;
-  /* margin-left: 95px; */
   border-top: 1px solid rgb(202, 200, 200);
   border-bottom: 1px solid rgb(202, 200, 200);
 }
@@ -854,12 +805,12 @@ select {
 }
 
 .boxf h4 {
-    font-size: 15px;
-    font-family: Ubuntu, sans-serif;
-    font-weight: 500;
+  font-size: 15px;
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
 }
 .boxf h4:hover {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 .boxf i {
   transform: rotate(90deg);
@@ -867,30 +818,6 @@ select {
   font-weight: 100;
 }
 
-/* #insta {
-  height: 28px;
-  width: 28px;
-  transform: rotate(0deg);
-  margin-left: 160px;
-  border: 1px solid gray;
-  font-size: 20px;
-  padding: 4px;
-  border-radius: 50%;
-  opacity: 0.2;
-}
-
-#fb {
-  height: 28px;
-  width: 28px;
-  transform: rotate(0deg);
-  margin-left: 10px;
-  border: 1px solid gray;
-  font-size: 20px;
-  padding: 6px;
-  border-radius: 50%;
-  opacity: 0.2;
-} */
-#insta,
 #fb {
   height: 28px;
   width: 28px;
@@ -901,9 +828,9 @@ select {
   border-radius: 50%;
   opacity: 0.2;
   position: absolute;
-   left: 35.6%; 
+  left: 35.6%;
 }
-#insta{
+#insta {
   height: 28px;
   width: 28px;
   transform: rotate(0deg);
@@ -943,7 +870,7 @@ select {
   border: none;
   opacity: 0.65;
 }
-.up-face{
+.up-face {
   transform: rotate(90deg);
   float: left;
   text-transform: uppercase;
@@ -953,7 +880,7 @@ select {
   font-family: Ubuntu, sans-serif;
   opacity: 0.5;
 }
-.up-face i{
+.up-face i {
   font-size: 2vh;
 }
 /* this is the new one */
@@ -1002,9 +929,8 @@ select {
 }
 
 .contact-info h3 {
-    font-size: 17px;
-    font-weight: 500;
-    
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .contact-info .cont {
@@ -1016,17 +942,7 @@ select {
 }
 
 .contact-info .cont:hover {
-  opacity: 1; 
-}
-
-.footer-links {
-  height: 50px;
-  width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 18%;
-  /* padding-left: 10%; */
+  opacity: 1;
 }
 
 .terms {
@@ -1042,7 +958,7 @@ select {
 }
 
 .boxf h4:hover {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 .boxf i {
@@ -1051,7 +967,6 @@ select {
   font-weight: 100;
 }
 
-
 .right-footer img {
   width: 37%;
   height: auto;
@@ -1059,6 +974,6 @@ select {
   right: 0;
   margin-right: 6%;
 }
-.boxm{
+.boxm {
   margin-left: 18%;
 }
