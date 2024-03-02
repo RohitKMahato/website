@@ -1,5 +1,5 @@
 /* Media query for tablet */
-@media (min-width: 576px) and (max-width: 1024px) {
+@media (min-width: 576px) and (max-width: 1300px) {
   .container {
     width: 95%;
     margin: 2vh;
@@ -40,20 +40,24 @@
     display: none;
   }
   .options {
-    margin-top: 43vh;
+    margin-top: 35vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0;
   }
 
   .left-content .statement h1 {
-    font-size: 5.6vh;
-    margin-top: 20px;
+    font-size: 5.2vh;
+    padding-left: 45px;
+    padding-top: 80px;
   }
 
   .left-content .para {
-    font-size: 2vh;
-    width: 50%;
+    font-size: 1.7vh;
+    width: 87%;
+    padding-left: 45px;
+    margin-top: 45px;
   }
 
   .box-img {
@@ -74,7 +78,7 @@
     margin-right: 20px;
   }
 
- .gest {
+  .gest {
     font-size: 16px;
     padding-left: 30px;
   }
@@ -82,22 +86,18 @@
     font-size: 16px;
     padding-left: 30px;
   }
-  
+
   .right-box {
     padding: 10px;
   }
 
   .container-det .left-box h2 {
     font-size: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 30px;
   }
 
   .right-box h4 {
-    margin-right: 50px;
-    margin-left: 25px;
-    margin-top: 0;
-    font-size: 2.1vh;
+    padding: 0 40px;
   }
 
   .btn {
@@ -105,25 +105,21 @@
   }
   #know {
     display: block;
-    height: 4vh;
     margin-top: 40px;
-    margin-bottom: 50px;
-    padding: 0vh;
-    width: 12vh;
-    margin-left: 20px;
+    margin-bottom: 60px;
   }
   #third {
-    margin-right: 5px;
+    padding-right: 10px;
   }
 
   .fits {
-    margin-top: 47px;
-    padding: 20px;
+    padding: 0;
+    padding-top: 70px;
+    padding-left: 20px;
   }
 
   .intro {
-    margin-left: 50px;
-    margin-right: 50px;
+    padding: 0 25px;
   }
 
   .intro h2 {
@@ -148,7 +144,7 @@
   }
 
   .detail h1 {
-    margin-top: 50px;
+    padding-bottom: 40px;
   }
 
   .container {
@@ -172,11 +168,9 @@
   .left-content,
   .right-content {
     width: 100%;
-    padding-right: 0;
-    margin-left: 0;
+    height: 630px;
   }
 
-  .left-content .para,
   .right-content .para {
     margin-left: 40px;
     margin-right: 40px;
@@ -226,13 +220,7 @@
   .left-box,
   .right-box {
     width: 100%;
-  }
-
-  .left-box h2 {
-    font-size: 30px;
-    margin-top: 40px;
-    margin-left: 30px;
-    margin-right: 40px;
+    padding-bottom: 0;
   }
 
   .options select {
@@ -245,8 +233,8 @@
   /* Adjustments for the shop-slide section */
   .shop-slide {
     padding: 20px;
-    height: auto;
     padding-top: 0;
+    height: 570px;
   }
 
   .room {
@@ -263,6 +251,7 @@
 
   .room-details h2 {
     font-size: 20px;
+    overflow: hidden;
   }
 
   .room-details h5 {
@@ -312,14 +301,8 @@
     font-size: 17.5px;
   }
 
-  .detail h1 {
-    font-size: 28px;
-  }
-
   .detail p {
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 18px;
+    padding: 0px 50px;
   }
 
   .detail h2 {
@@ -333,46 +316,47 @@
   }
 
   .footer {
-    flex-direction: column;
+    display: block;
     height: auto;
     width: 90%;
   }
 
   .left-footer {
     width: 100%;
+    padding-bottom: 50px;
   }
 
   .left-footer h2 {
-    margin-left: 40px;
-  }
+       padding-left: 20px;
+       padding-bottom: 15px;
+   }
+   .left-footer p{
+    padding-left: 15px;
+   }
 
-  .left-footer p {
-    margin-left: 40px;
-    margin-right: 40px;
+  .left-footer .cont {
+    padding-left: 15px;
   }
 
   .contact-info h3 {
-    margin-left: 40px;
+    padding-left: 15px;
   }
 
   .footer-links {
-    flex-direction: column;
-    align-items: center;
-    margin-left: 40px;
+    padding-left: 15px;
+    width: 100%;
   }
 
   #insta {
-    font-size: 2.2vh;
-    margin-left: 300px;
     opacity: 0.5;
-    border: none;
+    margin-left: 47%;
+
   }
 
   #fb {
-    font-size: 2.2vh;
-    margin-left: 10px;
-    opacity: 0.5;
-    border: none;
+    opacity: 0.4;
+    position: absolute;
+    margin-left: 50%;
   }
 
   .right-footer img {
@@ -402,18 +386,6 @@
     height: auto;
   }
 
-  .left-box,
-  .right-box {
-    width: 100%;
-  }
-
-  .left-box h2 {
-    font-size: 25px;
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
   .room-details h5 {
     font-size: 14px;
   }
@@ -431,22 +403,6 @@
     align-items: center;
   }
 
-  .detail h1 {
-    font-size: 24px;
-  }
-
-  .left-footer h2 {
-    margin-left: 20px;
-  }
-
-  .left-footer p {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .contact-info h3 {
-    margin-left: 20px;
-  }
   .up-face {
     display: none;
   }

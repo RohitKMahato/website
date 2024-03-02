@@ -108,6 +108,7 @@ nav {
   color: white;
   background-repeat: no-repeat;
   background-size: auto 100%;
+  object-fit: cover;
 }
 
 .right-content {
@@ -298,75 +299,6 @@ select {
   border-top-right-radius: 250px !important;
   border-bottom-right-radius: 250px !important;
 }
-
-/* .grid-container {
-  display: grid;
-  grid-template-columns: max-content;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  margin-top: 14px;
-  margin-bottom: 14px;
-}
-
-.icon-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 150px;
-}
-
-.gest {
-  flex: initial;
-    padding: 30px;
-    border: 2px solid #fff;
-    border-radius: 250px;
-    cursor: pointer;
-    font-family: Ubuntu, sans-serif;
-    font-size: 16.5px;
-    appearance: none;
-   
-    width: 160px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.gest {
-  margin-right: 10px;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown .fa-chevron-down {
-  position: absolute;
-  top: 50%;
-  right: 25px;
-  transform: translateY(-50%);
-  color: black;
-}
-
-.options button {
-  padding: 13px;
-  background-color: #8de8ff;
-  color: #000;
-  border: none;
-  cursor: pointer;
-  border-radius: 250px;
-  font-size: 17px;
-  font-weight: 500;
-  flex: 1;
-  width: 51%;
-  margin-right: 206px;
-  margin-left: 79px;
-
-}
-
-.options button:hover {
-  background-color: #afecfc;
-} */
 
 /* next page */
 
@@ -735,41 +667,15 @@ select {
   height: 550px;
   background-color: #def5f7;
 }
-.footer {
-  /* display: flex; */
-  display: grid;
-  grid-template-columns: 40% 60%;
-  height: 550px;
-  width: 96%;
-  background-color: rgb(255, 255, 255);
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.left-footer {
-  padding: 20px;
-}
 
 .right-footer {
   width: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .left-footer h2 {
   padding-top: 40px;
   font-size: 30px;
-}
-.left-footer p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid rgb(151, 151, 151);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 15.5px;
-  opacity: 0.4;
-  line-height: 1.4;
+  padding-bottom: 25px;
 }
 .contact-info h3 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -780,20 +686,13 @@ select {
 #call {
   padding-top: 26px;
 }
-.contact-info .cont {
-  border: none;
-  font-size: 17px;
-  padding-top: 5px;
-  opacity: 0.6;
-}
 
 .footer-links {
   height: 50px;
-  width: 80%;
+  width: 95%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 18%;
   margin-bottom: 20px;
   border-top: 1px solid rgb(202, 200, 200);
   border-bottom: 1px solid rgb(202, 200, 200);
@@ -802,6 +701,7 @@ select {
   width: 100%;
   display: flex;
   padding-top: 10px;
+  padding-bottom: 8px;
 }
 
 .boxf h4 {
@@ -874,7 +774,7 @@ select {
   transform: rotate(90deg);
   float: left;
   text-transform: uppercase;
-  margin-top: 20px;
+  margin-top: 60px;
   padding-top: 13%;
   font-size: 1.7vh;
   font-family: Ubuntu, sans-serif;
@@ -913,9 +813,6 @@ select {
   align-items: center;
 }
 
-.left-footer h2 {
-  font-size: 30px;
-}
 
 .left-footer p {
   padding-bottom: 20px;
@@ -925,7 +822,7 @@ select {
   opacity: 0.4;
   line-height: 1.4;
   padding-left: 0;
-  margin-left: 18%;
+  
 }
 
 .contact-info h3 {
@@ -944,13 +841,6 @@ select {
 .contact-info .cont:hover {
   opacity: 1;
 }
-
-.terms {
-  display: flex;
-  padding-top: 10px;
-  padding-bottom: 8px;
-}
-
 .boxf h4 {
   font-size: 15px;
   font-family: Ubuntu, sans-serif;
@@ -974,6 +864,6 @@ select {
   right: 0;
   margin-right: 6%;
 }
-.boxm {
-  margin-left: 18%;
+.main-info{
+display: grid;
 }
